@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//automate this
+
 int main()
 {
     clock_t start, end;

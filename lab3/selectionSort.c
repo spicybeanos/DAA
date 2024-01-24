@@ -2,7 +2,7 @@
 #include <time.h>
 
 typedef unsigned int uint;
-
+const int N = 100;
 int selectionSort(int *a, uint n)
 {
     uint i, j, min;
@@ -35,7 +35,7 @@ int main()
     scanf("%d", &n);
     for (i = 0; i < n; i++)
     {
-        scanf("%d", &arr[i]);
+        arr[i] = rand() % (N + 1);
     }
     start = clock();
     opcount = selectionSort(arr, n);
